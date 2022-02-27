@@ -86,7 +86,7 @@ body {
   transform: rotate(25deg);
 }
 
-header {
+.header {
   z-index: 2;
   width: 1290px;
   height: 107px;
@@ -109,19 +109,19 @@ h3 {
 
 }
 
-header .menu {
+.header .menu {
   display: flex;
   justify-content: flex-end;
 }
 
-header .menu .nav-item {
+.header .menu .nav-item {
   font-size: 18px;
   display: block;
   padding: 43px 10px;
   color: #FFFCFC;
 }
 
-header .menu .nav-item a {
+.header .menu .nav-item a {
   color: #FFFCFC;
 }
 
