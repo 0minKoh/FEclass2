@@ -136,11 +136,9 @@ header .menu .nav-item a {
 
 .background2 .text-container {
   z-index: 2;
-  display: flex;
-  justify-content: center;
   position: absolute;
-  left: 31.5vw;
-  top: 126px;
+  left: 38vw;
+  top: 8.7vh;
   width: 32vw;
   height: 10vh;
 }
@@ -168,8 +166,8 @@ header .menu .nav-item a {
   position: absolute;
   width: 1500px;
   height: 1000px;
-  left: 24vw;
-  top: 28vh;
+  left: 24%;
+  top: 28%;
 }
 
 .background2 .box-container .el-container1 {
