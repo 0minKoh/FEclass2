@@ -12,7 +12,6 @@ body {
 
 .background1 {
   position: relative;
-  z-index: 1;
   width: 100vw;
   height: 1443px;
   background: linear-gradient(to right, #4C4CE6, #FF00CC);
@@ -95,7 +94,7 @@ body {
   left: 0px;
   right: 0px;
   margin: 34px auto;
-  background-color: transparent;
+  background: transparent;
 }
 
 h3 {
@@ -140,7 +139,7 @@ h3 {
   left: 38vw;
   top: 8.7vh;
   width: 1000px;
-  height: 10vh;
+  height: 130px;
 }
 
 .background2 .text1 {
