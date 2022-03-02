@@ -45,22 +45,22 @@ body {
   background: transparent;
   width: 276px;
   height: 327px;
-  top: 37.6vh;
-  left: 42.8vw;
+  left: 0px;
+  right: 0px;
+  margin: 37.6vh auto;
   border: 18px solid #FFFCFC;
 }
 
 .background1 .text-rec .text {
   position: absolute;
   text-align: center;
-  display: block;
   top: 27.5px;
   left: 45px;
   color: #FFFCFC;
   font-size: 116px;
   font-weight: 700;
   line-height: 1.18;
-  font-family: 'Segoe Ui', 'sans-serif';
+  font-family: "Segoe Ui", "sans-serif";
 }
 
 .background1 .back-rec1 {
@@ -90,10 +90,10 @@ body {
   width: 1290px;
   height: 107px;
   position: fixed;
+  margin: 34px auto;
   top: 0px;
   left: 0px;
   right: 0px;
-  margin: 34px auto;
   background: transparent;
 }
 
@@ -105,7 +105,6 @@ h3 {
   left: 57px;
   top: 35px;
   bottom: 35px;
-
 }
 
 .header .menu {
@@ -136,9 +135,11 @@ h3 {
 .background2 .text-container {
   z-index: 2;
   position: absolute;
-  left: 38vw;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
   top: 8.7vh;
-  width: 1000px;
+  width: 680px;
   height: 130px;
 }
 
@@ -157,6 +158,7 @@ h3 {
   text-align: center;
   font-size: 20px;
   color: #8F8F8F;
+  left: 21.5px;
   bottom: 0px;
 }
 
@@ -165,7 +167,9 @@ h3 {
   position: absolute;
   width: 1500px;
   height: 1000px;
-  left: 24%;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
   top: 28%;
 }
 
@@ -558,8 +562,10 @@ h3 {
 
 .background5 .M {
   position: absolute;
-  top: 5%;
-  left: 45%;
+  width: 252px;
+  margin: 5% auto;
+  left: 0px;
+  right: 0px;
   font-weight: 500;
   font-size: 55px;
   color: #000;
@@ -567,7 +573,9 @@ h3 {
 
 .background5 .code {
   position: absolute;
-  left: 44%;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
   top: 15%;
   width: auto;
   height: 300px;
@@ -585,22 +593,22 @@ h3 {
 
 .background5 .picture {
   position: absolute;
-  left: 35%;
-  top: 50%;
-  width: 30%;
-  height: 30%;
+  margin: 900px auto;
+  left: 0px;
+  right: 0px;
+  width: 435px;
+  height: 83px;
 }
 
 .background5 .picture .face-container {
   z-index: 1;
   position: absolute;
-  left: 25%;
+  left: 10%;
 }
 
 .background5 .picture .face {
   z-index: 2;
   position: absolute;
-  left: 25%;
   width: 83px;
   height: 83px;
   background: #FFF;
@@ -611,7 +619,7 @@ h3 {
 .background5 .picture .Y {
   display: block;
   position: absolute;
-  left: 40%;
+  left: 150px;
   font-size: 25px;
   color: #8F8F8F;
   font-weight: 300;
@@ -619,10 +627,10 @@ h3 {
 
 .background5 .btn {
   position: absolute;
-  left: 46%;
+  left: 46.5%;
   bottom: 30%;
-  width: 150px;
-  height: 5%;
+  width: 200px;
+  height: 50px;
 }
 
 .background5 .btn .btn1 {
@@ -663,7 +671,7 @@ h3 {
 
 .background5 .O {
   position: absolute;
-  left: 18%;
+  left: 20%;
   top: 0%;
   font-size: 55px;
   font-weight: 400px;
@@ -676,7 +684,7 @@ h3 {
 
 .background5 .oap .B {
   position: absolute;
-  left: 10%;
+  left: 13%;
   top: 30%;
   font-size: 25px;
   color: #8F8F8F;
@@ -686,7 +694,7 @@ h3 {
 .background5 .oap .ui-ux {
   position: absolute;
   bottom: 15%;
-  left: 28%;
+  left: 31%;
   font-size: 25px;
   font-weight: 300;
   color: #FF17CC;
