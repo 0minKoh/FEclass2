@@ -125,7 +125,6 @@ h3 {
 
 .background2 {
   position: relative;
-  z-index: 1;
   width: 100vw;
   height: 1443px;
   background: #FFFCFC;
@@ -133,7 +132,6 @@ h3 {
 }
 
 .background2 .text-container {
-  z-index: 2;
   position: absolute;
   margin: 0 auto;
   left: 0px;
@@ -163,7 +161,6 @@ h3 {
 }
 
 .background2 .box-container {
-  z-index: 2;
   position: absolute;
   width: 1500px;
   height: 1000px;
