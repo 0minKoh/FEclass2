@@ -1,3 +1,4 @@
+/* 공통 */
 a {
   text-decoration: none;
 }
@@ -10,6 +11,7 @@ body {
   font-family: 'Segoe Ui', 'sans-serif';
 }
 
+/* 1페이지 */
 .background1 {
   position: relative;
   width: 100vw;
@@ -123,6 +125,7 @@ h3 {
   color: #FFFCFC;
 }
 
+/* 2페이지 */
 .background2 {
   position: relative;
   width: 100vw;
@@ -180,8 +183,6 @@ h3 {
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
 }
 
-/* 컨테이너 사이즈 가로:450px 세로:430px */
-/* 이미지 사이즈: 가로:112.5px 세로:107.5px */
 .background2 .box-container .el-container1 img {
   position: absolute;
   width: 25%;
@@ -401,7 +402,6 @@ h3 {
 
 .background3 .bg {
   position: absolute;
-  box-shadow: 19px, 29px, 42px;
 }
 
 .background3 .bg-gradient {
@@ -491,7 +491,6 @@ h3 {
   color: #8F8F8F;
 }
 
-/* graph wid 22% */
 .background4 .graphback1 {
   position: absolute;
   width: 22%;
@@ -542,6 +541,7 @@ h3 {
   font-weight: 300;
 }
 
+/* 5페이지 */
 .background5 {
   position: relative;
   z-index: 1;
