@@ -436,14 +436,9 @@ h3 {
   background: transparent;
   border: 1px solid #FFFCFC;
   border-radius: 50px;
-}
-
-.background3 .btn .F {
-  position: absolute;
   font-weight: 300;
   font-size: 30px;
-  left: 23%;
-  top: 27%;
+  color: #FFFCFC;
 }
 
 .background3 .app {
