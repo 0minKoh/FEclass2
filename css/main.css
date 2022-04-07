@@ -123,7 +123,23 @@ h3 {
 
 .header .menu .nav-item a {
   color: #FFFCFC;
+  transition: color 1s;
 }
+
+.header .menu .nav-item a:hover {
+  color: #FF17CC;
+}
+
+.header .menu .nav-item span{
+  color: #FFFCFC;
+  transition: color 1s;
+}
+
+.header .menu .nav-item span:hover {
+  color: #FF17CC;
+}
+
+
 
 /* 2페이지 */
 .background2 {
@@ -181,6 +197,11 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: transform 1s;
+}
+
+.background2 .box-container .el-container1:hover {
+  transform: scale(1.5);
 }
 
 .background2 .box-container .el-container1 img {
@@ -218,6 +239,11 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: transform 1s;
+}
+
+.background2 .box-container .el-container2:hover {
+  transform: scale(1.5);
 }
 
 .background2 .box-container .el-container2 img {
@@ -254,6 +280,11 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: transform 1s;
+}
+
+.background2 .box-container .el-container3:hover {
+  transform: scale(1.5);
 }
 
 .background2 .box-container .el-container3 img {
@@ -290,6 +321,11 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: transform 1s;
+}
+
+.background2 .box-container .el-container4:hover {
+  transform: scale(1.5);
 }
 
 .background2 .box-container .el-container4 img {
@@ -326,6 +362,11 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: transform 1s;
+}
+
+.background2 .box-container .el-container5:hover {
+  transform: scale(1.5);
 }
 
 .background2 .box-container .el-container5 img {
@@ -362,6 +403,11 @@ h3 {
   height: 43%;
   background: #FFFCFC;
   box-shadow: 0px 3px 56px rgba(0,0,0,16%);
+  transition: transform 1s;
+}
+
+.background2 .box-container .el-container6:hover {
+  transform: scale(1.5);
 }
 
 .background2 .box-container .el-container6 img {
@@ -439,6 +485,11 @@ h3 {
   font-weight: 300;
   font-size: 30px;
   color: #FFFCFC;
+  transition: background-color 1s;
+}
+
+.background3 .btn:hover {
+  background-color: #FF17CC;
 }
 
 .background3 .app {
@@ -447,6 +498,11 @@ h3 {
   top: 21%;
   width: 550px;
   height: auto;
+  transition: transform 1s;
+}
+
+.background3 .app:hover {
+  transform: rotateY(180deg);
 }
 
 /* 4페이지 */
@@ -466,6 +522,11 @@ h3 {
   top: 21%;
   width: 550px;
   height: auto;
+  transition: transform 1s;
+}
+
+.background4 .app:hover {
+  transform: rotateY(180deg);
 }
 
 .background4 .M {
