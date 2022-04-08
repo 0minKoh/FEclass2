@@ -444,6 +444,9 @@ h3 {
   height: 1443px;
   background: #FFFCFC;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .background3 .bg {
@@ -457,26 +460,33 @@ h3 {
   background: linear-gradient(to right, rgba(76, 76, 230, 30%), rgba(255, 0, 254, 89%))
 }
 
-.background3 .C {
+.background3 .container {
+  position: absolute;
+  width: 45%;
+  height: 1000px;
+  min-width: 1200px;
+}
+
+.background3 .container .C {
   position: absolute;
   font-size: 40px;
   font-weight: 300;
-  left: 30%;
-  top: 32%;
+  left: 0%;
+  top: 10%;
 }
 
 .background3 .S {
   position: absolute;
   font-size: 30px;
   font-weight: 200;
-  left: 30%;
-  top: 44%;
+  left: 0%;
+  top: 25%;
 }
 
 .background3 .btn {
   position: absolute;
-  left: 30%;
-  top: 56%;
+  left: 0%;
+  top: 50%;
   width: 250px;
   height: 100px;
   background: transparent;
@@ -494,8 +504,8 @@ h3 {
 
 .background3 .app {
   position: absolute;
-  left: 55%;
-  top: 21%;
+  right: 0%;
+  top: 0%;
   width: 550px;
   height: auto;
   transition: transform 1s;
@@ -514,12 +524,22 @@ h3 {
   height: 1443px;
   background: #FFFCFC;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background4 .container {
+  position: absolute;
+  width: 50%;
+  height: 1000px;
+  min-width: 1200px;
 }
 
 .background4 .app {
   position: absolute;
-  left: 27%;
-  top: 21%;
+  left: 0%;
+  top: 0%;
   width: 550px;
   height: auto;
   transition: transform 1s;
@@ -534,26 +554,26 @@ h3 {
   font-size: 40px;
   font-weight: 200;
   color: #000;
-  left: 48%;
-  top: 30%;
+  left: 40%;
+  top: 10%;
 }
 
 .background4 .T {
   position: absolute;
   font-size: 30px;
   font-weight: 200;
-  left: 48%;
-  top: 42%;
+  left: 40%;
+  top: 25%;
   color: #8F8F8F;
 }
 
 .background4 .graphback1 {
   position: absolute;
-  width: 22%;
+  width: 44%;
   height: 45px;
   background: #E8E8E8;
-  left: 48%;
-  top: 56%;
+  left: 40%;
+  top: 45%;
   border-radius: 50px;
 }
 
@@ -574,11 +594,11 @@ h3 {
 
 .background4 .graphback2 {
   position: absolute;
-  width: 22%;
+  width: 44%;
   height: 45px;
   background: #E8E8E8;
-  left: 48%;
-  top: 61%;
+  left: 40%;
+  top: 52%;
   border-radius: 50px;
 }
 
@@ -605,6 +625,8 @@ h3 {
   height: 1800px;
   background: #FFFCFC;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
 .background5 .bg {
@@ -718,18 +740,19 @@ h3 {
 
 .background5 .oap {
   position: absolute;
-  left: 35%;
   top: 77%;
   width: 28%;
+  min-width: 1000px;
   height: 20%;
+  display: flex;
+  justify-content: center;
 }
 
-.background5 .O {
+.background5 .oap .O {
   position: absolute;
-  left: 20%;
   top: 0%;
   font-size: 55px;
-  font-weight: 400px;
+  font-weight: 400;
   color: #000;
 }
 
@@ -737,9 +760,9 @@ h3 {
   font-weight: 700;
 }
 
-.background5 .oap .B {
+.background5 .oap .Best {
   position: absolute;
-  left: 13%;
+  text-align: center;
   top: 30%;
   font-size: 25px;
   color: #8F8F8F;
@@ -749,7 +772,6 @@ h3 {
 .background5 .oap .ui-ux {
   position: absolute;
   bottom: 15%;
-  left: 31%;
   font-size: 25px;
   font-weight: 300;
   color: #FF17CC;
