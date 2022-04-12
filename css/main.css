@@ -20,6 +20,10 @@ body {
   overflow: hidden;
 }
 
+.background1 .fadeIn {
+  opacity: 0;
+}
+
 .background1 .rectangle1 {
   position: absolute;
   width: 103vw;
